@@ -46,7 +46,7 @@ export default function Layout() {
           <nav id="site-nav" className={open ? 'nav open' : 'nav'} aria-label="الأدوات">
             {TOOLS.map((t) => (
               <NavLink key={t.path} to={t.path}>
-                {t.short.split(' ')[0] === 'تحويل' ? 'هجري/ميلادي' : navLabel(t.path)}
+                {navLabel(t.path)}
               </NavLink>
             ))}
           </nav>
@@ -71,6 +71,8 @@ export default function Layout() {
 
 function navLabel(path: string): string {
   switch (path) {
+    case '/hijri':
+      return 'هجري/ميلادي'
     case '/vat':
       return 'الضريبة'
     case '/zakat':
