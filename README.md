@@ -14,7 +14,7 @@ Saudi everyday calculators that run entirely client-side. No backend, no API key
 | تقدير اشتراكات التأمينات (GOSI) | `/gosi` | GOSI contribution estimator |
 | حاسبة العمر | `/age` | Age calculator |
 | الفرق بين تاريخين | `/date-diff` | Date difference |
-| تفقيط الأرقام والمبالغ بالعربية | `/number-words` | Arabic number to words |
+| تفقيط الأرقام والمبالغ بالعربية | `/number-to-words` | Arabic number to words |
 
 - كل أداة لها مسارها وشرح طريقة الحساب وحالات فارغة وخطأ واضحة.
 - مدخلات كل أداة محفوظة في رابط الصفحة (`?amount=1000&mode=extract`) فيمكن مشاركة النتيجة.

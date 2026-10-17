@@ -12,7 +12,7 @@ const ROUTES = [
   '/gosi',
   '/age',
   '/date-diff',
-  '/number-words',
+  '/number-to-words',
 ]
 
 function seoFiles(): Plugin {
